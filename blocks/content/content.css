@@ -1,0 +1,30 @@
+.content{
+    grid-area: content;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    row-gap: 92px;
+    grid-auto-rows: auto;
+    padding: 56px 0 92px 0;
+  }
+
+  @media screen and (max-width: 1024px){
+    .content{
+      row-gap: 92px;
+      padding: 48px 0 92px 0;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .content{
+      row-gap: 88px;
+      padding: 48px 0 88px 0;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .content{
+    row-gap: 64px;
+    padding: 48px 0 64px 0;
+    }
+  }

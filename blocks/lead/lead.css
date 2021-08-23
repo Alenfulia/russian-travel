@@ -1,0 +1,13 @@
+.lead{
+  min-width: 320px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 984px));
+  grid-template-rows: repeat(4, min-content);
+  justify-content: center;
+  justify-items: center;
+  grid-template-areas:
+    "title"
+    "subtitle"
+    "image"
+    "caption";
+}

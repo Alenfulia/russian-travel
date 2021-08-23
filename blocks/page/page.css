@@ -1,0 +1,17 @@
+.page{
+  min-width: 320px;
+  max-width: 1280px;
+  background-color: #2A2C2F;
+  font-family: 'Inter', Arial, sant-serif;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  grid-template-columns: minmax(320px, 1280px);
+  grid-template-rows: repeat(3, min-content);
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+}

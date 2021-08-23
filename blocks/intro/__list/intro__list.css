@@ -1,0 +1,10 @@
+.intro__list{
+    max-width: 690px;
+    grid-area: list;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    list-style: none;
+    text-decoration: none;
+    padding:0;
+  }
