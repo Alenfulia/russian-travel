@@ -1,10 +1,10 @@
 .header{
-    padding: 28px 48px 0 48px;
-    grid-area: header;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
+  padding: 28px 48px 0 48px;
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
 @media screen and (max-width: 1024px){
   .header{
