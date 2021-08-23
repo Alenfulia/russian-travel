@@ -6,4 +6,4 @@
 ## Использованные технологии:
 Проект создавался при помощи продвинутой семантики языков HTML и CSS, flexbox-вёрстки, Grid Layout. Были использованы media queries для задания специфических правил для разных размеров экранов.
 
-## Cсылкa на GitHub Pages - https://alenfulia.github.io/russian-travel/index.html
+## Cсылкa на GitHub Pages - https://alenfulia.github.io/russian-travel/
