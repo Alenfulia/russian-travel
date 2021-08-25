@@ -5,7 +5,7 @@
   background: url(../../../images/cover-trains.jpg) rgba(42, 44, 47, 0.3);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1184px;
   background-position: center;
   text-decoration: none;
   color:#fff;
@@ -18,17 +18,20 @@
 @media screen  and (max-width:1024px){
   .cover__link{
   padding: 192px 232px;
+  background-size: 1024px;
   }
 }
 
 @media screen  and (max-width:768px){
   .cover__link{
   padding: 115px 104px;
+  background-size: 768px;
   }
 }
 
 @media screen  and (max-width:320px){
   .cover__link{
   padding: 33px 16px;
+  background-size: 320px;
   }
 }

@@ -1,6 +1,7 @@
 .intro__title{
   max-width: 690px;
   grid-area: title;
+  font-family: 'Inter', Arial, sant-serif;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;

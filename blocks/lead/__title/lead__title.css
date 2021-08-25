@@ -1,6 +1,7 @@
 .lead__title{
   grid-area: title;
   margin: 0;
+  font-family: 'Inter', Arial, sant-serif;
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;
