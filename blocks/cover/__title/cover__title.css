@@ -1,4 +1,4 @@
-.cover__title{
+.cover__title {
   margin: 0 auto;
   font-family: 'Inter', Arial, sant-serif;
   max-width: 560px;
@@ -8,15 +8,8 @@
   text-align: center;
 }
 
-@media screen  and (max-width:650px){
-  .cover__title{
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
-
-@media screen  and (max-width:320px){
-  .cover__title{
+@media screen  and (max-width: 650px) {
+  .cover__title {
     font-size: 32px;
     line-height: 35px;
   }

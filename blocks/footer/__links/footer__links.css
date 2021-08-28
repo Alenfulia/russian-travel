@@ -1,5 +1,5 @@
-.footer__links{
+.footer__links {
   margin: 0;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
 }

@@ -1,4 +1,4 @@
-.lead{
+.lead {
   min-width: 320px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min-content, 984px));

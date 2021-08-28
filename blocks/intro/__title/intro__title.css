@@ -1,4 +1,4 @@
-.intro__title{
+.intro__title {
   max-width: 690px;
   grid-area: title;
   font-family: 'Inter', Arial, sant-serif;
@@ -8,8 +8,8 @@
   margin: 0;
 }
 
-@media screen and (max-width: 320px){
-  .intro__title{
+@media screen and (max-width: 320px) {
+  .intro__title {
   font-size: 32px;
   line-height: 35px;
   }

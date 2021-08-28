@@ -1,4 +1,4 @@
-.footer__copyright{
+.footer__copyright {
   margin:0;
   padding: 0 0 12px;
   font-family: 'Inter', Arial, sant-serif;
@@ -8,8 +8,8 @@
   text-align: right;
 }
 
-@media screen and (max-width:320px) {
-  .footer__copyright{
+@media screen and (max-width: 320px) {
+  .footer__copyright {
     line-height: 14px;
     padding: 48px 0 0;
   }

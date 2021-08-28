@@ -1,4 +1,4 @@
-.footer__link{
+.footer__link {
   text-decoration: none;
   color: #fff;
   font-family: 'Inter', Arial, sant-serif;
@@ -8,23 +8,21 @@
   padding: 0 18px 12px 0;
 }
 
-.footer__link:last-of-type{
+.footer__link:last-of-type {
   padding-right: 0;
 }
 
 .footer__link:hover{
-  opacity: 0.8;
+  opacity: .8;
+  transition: opacity .2s ease-in;
 }
 
-@media screen and (max-width:320px) {
-  .footer__link{
+@media screen and (max-width: 320px) {
+  .footer__link {
     padding: 0 0 32px 0;
     font-size: 24px;
     line-height: 24px;
     flex-basis: 100%;
   }
 
-  .footer__link:last-of-type {
-    padding-bottom: 0;
-  }
 }

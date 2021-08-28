@@ -1,4 +1,4 @@
-.intro{
+.intro {
   display: grid;
   grid-template-columns: 148px minmax(min-content, 984px) 148px;
   grid-template-rows: repeat(3, min-content);
@@ -9,20 +9,20 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .intro{
     grid-template-columns: 48px minmax(min-content, 928px) 48px;
   }
 }
 
-@media screen and (max-width: 768px){
-  .intro{
+@media screen and (max-width: 768px) {
+  .intro {
     grid-template-columns: 24px minmax(min-content, 928px) 24px;
   }
 }
 
-@media screen and (max-width: 320px){
-  .intro{
+@media screen and (max-width: 320px) {
+  .intro {
     grid-template-columns: 16px minmax(min-content, 928px) 16px;
   }
 }
