@@ -25,12 +25,13 @@
   min-height: 740px;
   max-width: 1184px;
   background-color: rgba(42, 44, 47, .3);
+  transition: background-color .2s ease-in;
   z-index: -1;
 }
 
 .cover__link:hover::after {
   background-color: rgba(42, 44, 47, .8);
-  transition: opacity .2s ease-in;
+
 }
 
 @media screen  and (max-width: 1024px) {
@@ -40,17 +41,13 @@
   }
 
   .cover__link::after {
-    min-height: 640px;
-    max-width: 1024px;
+    min-height: 100%;
+    max-width: 100%;
   }
 }
 
 @media screen  and (max-width: 768px) {
   .cover__link {
-    min-height: 480px;
-  }
-
-  .cover__link::after {
     min-height: 480px;
   }
 }
@@ -59,19 +56,10 @@
   .cover__link {
     min-height: 300px;
   }
-
-  .cover__link::after {
-    min-height: 300px;
-  }
 }
 
 @media screen  and (max-width: 335px) {
   .cover__link {
-    min-height: 200px;
-    max-width: 100%;
-  }
-
-  .cover__link::after {
     min-height: 200px;
     max-width: 100%;
   }
